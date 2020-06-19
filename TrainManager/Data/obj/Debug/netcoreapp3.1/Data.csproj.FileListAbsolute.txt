@@ -1,0 +1,45 @@
+C:\Users\35988\Desktop\Desktop\Programming\Държавен Изпит\To-Do-Manager\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\35988\Desktop\Desktop\Programming\Държавен Изпит\To-Do-Manager\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\Users\35988\Desktop\Desktop\Programming\Държавен Изпит\To-Do-Manager\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\Users\35988\Desktop\Desktop\Programming\Държавен Изпит\To-Do-Manager\Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\35988\Desktop\Desktop\Programming\Държавен Изпит\To-Do-Manager\Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\35988\Desktop\Desktop\Programming\Държавен Изпит\To-Do-Manager\Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+C:\Users\35988\Desktop\Desktop\Programming\Държавен Изпит\To-Do-Manager\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\35988\Desktop\Desktop\Programming\Държавен Изпит\To-Do-Manager\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\35988\Desktop\Desktop\Programming\Държавен Изпит\To-Do-Manager\Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\Users\35988\Desktop\Desktop\Programming\Държавен Изпит\To-Do-Manager\Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\Users\35988\Desktop\Desktop\Programming\Държавен Изпит\To-Do-Manager\Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
+C:\Users\35988\Desktop\To-Do-Manager\To-Do-Manager\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\35988\Desktop\To-Do-Manager\To-Do-Manager\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\35988\Desktop\To-Do-Manager\To-Do-Manager\Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\Users\35988\Desktop\To-Do-Manager\To-Do-Manager\Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\Users\35988\Desktop\To-Do-Manager\To-Do-Manager\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\35988\Desktop\To-Do-Manager\To-Do-Manager\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\Users\35988\Desktop\To-Do-Manager\To-Do-Manager\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\Users\35988\Desktop\To-Do-Manager\To-Do-Manager\Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\35988\Desktop\To-Do-Manager\To-Do-Manager\Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\35988\Desktop\To-Do-Manager\To-Do-Manager\Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
+C:\Users\35988\Desktop\To-Do-Manager\To-Do-Manager\Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+C:\Users\35988\Desktop\TrainManager\TrainManager\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\35988\Desktop\TrainManager\TrainManager\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\Users\35988\Desktop\TrainManager\TrainManager\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\Users\35988\Desktop\TrainManager\TrainManager\Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\35988\Desktop\TrainManager\TrainManager\Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\35988\Desktop\TrainManager\TrainManager\Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+C:\Users\35988\Desktop\TrainManager\TrainManager\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\35988\Desktop\TrainManager\TrainManager\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\35988\Desktop\TrainManager\TrainManager\Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\Users\35988\Desktop\TrainManager\TrainManager\Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\Users\35988\Desktop\TrainManager\TrainManager\Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
+D:\Documents\Visual Studio 2019\Code repo\TrainManager\TrainManager\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+D:\Documents\Visual Studio 2019\Code repo\TrainManager\TrainManager\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+D:\Documents\Visual Studio 2019\Code repo\TrainManager\TrainManager\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+D:\Documents\Visual Studio 2019\Code repo\TrainManager\TrainManager\Data\bin\Debug\netcoreapp3.1\Data.dll
+D:\Documents\Visual Studio 2019\Code repo\TrainManager\TrainManager\Data\bin\Debug\netcoreapp3.1\Data.pdb
+D:\Documents\Visual Studio 2019\Code repo\TrainManager\TrainManager\Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+D:\Documents\Visual Studio 2019\Code repo\TrainManager\TrainManager\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+D:\Documents\Visual Studio 2019\Code repo\TrainManager\TrainManager\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+D:\Documents\Visual Studio 2019\Code repo\TrainManager\TrainManager\Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2019\Code repo\TrainManager\TrainManager\Data\obj\Debug\netcoreapp3.1\Data.dll
+D:\Documents\Visual Studio 2019\Code repo\TrainManager\TrainManager\Data\obj\Debug\netcoreapp3.1\Data.pdb
+D:\Documents\Visual Studio 2019\Code repo\TrainManager\TrainManager\Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache

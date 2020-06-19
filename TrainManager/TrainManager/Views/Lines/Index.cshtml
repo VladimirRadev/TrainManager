@@ -1,0 +1,106 @@
+﻿@model IEnumerable<Data.Entities.Line>
+@using Data.Entities
+@using Microsoft.AspNetCore.Http
+@using ToDoManager.Models.Home
+@using ToDoManager.Utils
+
+@{
+    ViewData["Title"] = "Index";
+}
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    LoggedUser loggedUser = HttpContextAccessor.HttpContext.Session.GetObjectFromJson<LoggedUser>("loggedUser") == null
+        ? null
+        : HttpContextAccessor.HttpContext.Session.GetObjectFromJson<LoggedUser>("loggedUser");
+}
+
+@if (loggedUser != null && loggedUser.IsAdmin)
+{
+
+    <p>
+        <a asp-action="Create">New</a>
+    </p>
+
+}
+@if (loggedUser != null && loggedUser.IsAdmin == false)
+{
+
+<form asp-controller="Lines" asp-action="Index">
+    <p>
+        Search : <input type="text" name="value">
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.From)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.To)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DepartureTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ArrivalTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Train)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.From)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.To)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DepartureTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ArrivalTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Train.Name)
+                </td>
+                @if (loggedUser != null && loggedUser.IsAdmin)
+                {
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+
+                }
+                else
+                {
+                    <td>
+                         <a href="/Tickets/Create">Reserve</a>
+                    </td>
+
+                }
+
+            </tr>
+        }
+    </tbody>
+</table>

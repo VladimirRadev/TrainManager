@@ -1,0 +1,75 @@
+﻿@using Data.Entities
+@using Microsoft.AspNetCore.Http
+@using ToDoManager.Models.Home
+@using ToDoManager.Utils
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    LoggedUser loggedUser = HttpContextAccessor.HttpContext.Session.GetObjectFromJson<LoggedUser>("loggedUser") == null
+        ? null
+        : HttpContextAccessor.HttpContext.Session.GetObjectFromJson<LoggedUser>("loggedUser");
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <h1 class="left">Train Manager</h1>
+        <div class="right">Hello, @(loggedUser == null ? "Annonymous" : loggedUser.Username)</div>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="/Home/Index">Home</a>
+            </li>
+            @if (loggedUser != null && loggedUser.IsAdmin)
+            {
+                <li>
+                    <a href="/User/Index">Users</a>
+                </li>
+                <li>
+                    <a href="/Lines/Index">Lines</a>
+                </li>
+                <li>
+                    <a href="/Trains/Index">Trains</a>
+                </li>
+
+            }
+            @if (loggedUser != null && loggedUser.IsAdmin == false)
+            {
+                <li>
+                    <a href="/Lines/Index">Search the Lines</a>
+                </li>
+                <li>
+                    <a href="/Tickets/Index">My tickets</a>
+                </li>
+
+            }
+            <li>
+                @if (loggedUser == null)
+                {
+                    <a href="/Home/Login">Login</a>
+                <li>
+                    <a href="/User/Create">Register</a>
+                </li>
+            }
+            else
+            {
+                <li>
+                    <a href="/Home/Logout">Logout</a>
+                </li>
+            }
+               
+            </ul>
+        </div>
+        <div class="body">
+            @RenderBody()
+        </div>
+        @RenderSection("Scripts", required: false)
+    </body>
+</html>
